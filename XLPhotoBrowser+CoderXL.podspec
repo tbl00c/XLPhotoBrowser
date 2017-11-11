@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/CoderXLLau/XLPhotoBrowser.git', :tag => s.version}
     s.source_files = 'XLPhotoBrowser+CoderXL/**/*.{h,m}'
     s.framework    = 'UIKit'
-    s.dependency 'SDWebImage', '~> 4.0.0'
+    s.dependency 'SDWebImage'
     s.requires_arc = true
 end
 
