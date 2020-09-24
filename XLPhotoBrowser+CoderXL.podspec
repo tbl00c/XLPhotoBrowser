@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'XLPhotoBrowser+CoderXL'
-    s.version      = '1.2.0'
+    s.version      = '1.2.1'
     s.summary      = 'An easy way to borwser photoes like WeChat Or SinaWeibo Style!'
     s.homepage     = 'https://github.com/CoderXLLau/XLPhotoBrowser'
     s.license      = 'MIT'

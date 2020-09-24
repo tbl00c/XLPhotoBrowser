@@ -2,13 +2,25 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - "XLPhotoBrowser+CoderXL (1.2.0)":
+    - SDWebImage
 
 DEPENDENCIES:
   - SDWebImage (~> 4.0)
+  - "XLPhotoBrowser+CoderXL (from `./`)"
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  "XLPhotoBrowser+CoderXL":
+    :path: "./"
 
 SPEC CHECKSUMS:
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  "XLPhotoBrowser+CoderXL": 48f73020942c73ba3c3f44c46f7f2add86a98d00
 
-PODFILE CHECKSUM: 5c89929bc46d0bb3942d9e8e5be8457248d14a2a
+PODFILE CHECKSUM: 604172e3a910e8692478906cb591ec32d69d37dd
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.9.3
